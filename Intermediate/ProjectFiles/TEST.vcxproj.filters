@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TEST.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{CEC95135-AAF6-41F5-8B1A-683247C3E08A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TEST.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TESTEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{DCF40ECE-2037-40A8-A801-50EE58EB22A6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TEST">
+      <UniqueIdentifier>{EFA41521-C22E-4935-979F-0D73DEFF5C24}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TEST\GamePlayModeBase.cpp">
+      <Filter>Source\TEST</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEST\GamePlayModeBase.h">
+      <Filter>Source\TEST</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEST\MainMenuLevelController.cpp">
+      <Filter>Source\TEST</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEST\MainMenuLevelController.h">
+      <Filter>Source\TEST</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEST\MainMeunWidget.cpp">
+      <Filter>Source\TEST</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEST\MainMeunWidget.h">
+      <Filter>Source\TEST</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEST\MainPlayerCharacter.cpp">
+      <Filter>Source\TEST</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEST\MainPlayerCharacter.h">
+      <Filter>Source\TEST</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEST\PlayLevelController.cpp">
+      <Filter>Source\TEST</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEST\PlayLevelController.h">
+      <Filter>Source\TEST</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TEST\TEST.Build.cs">
+      <Filter>Source\TEST</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TEST\TEST.cpp">
+      <Filter>Source\TEST</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEST\TEST.h">
+      <Filter>Source\TEST</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEST\TESTGameModeBase.cpp">
+      <Filter>Source\TEST</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEST\TESTGameModeBase.h">
+      <Filter>Source\TEST</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
